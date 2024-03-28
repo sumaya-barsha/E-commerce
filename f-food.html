@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Fast Food</title>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/icons/font/bootstrap-icons.min.css">
+	<!-- Slick CSS -->
+	<link rel="stylesheet" href="assets/slick/slick.css">
+	<link rel="stylesheet" href="assets/slick/slick-theme.css">
+	<!-- Responsive CSS -->
+	<link rel="stylesheet" href="assets/css/responsive.css">
+	<!-- My Style -->
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+	<!-- Navbar Start -->
+	<nav class="navbar navbar-expand-lg bg-body-tertiary shadow-sm">
+		<div class="container-fluid">
+			<a class="navbar-brand text-uppercase fw-bold" href="index.html">MyShop</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">About</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+							Categories
+						</a>
+						<ul class="dropdown-menu">
+							<li><a class="dropdown-item" href="vegetables.html">Vegetables</a></li>
+							<li><a class="dropdown-item" href="fruits.html">Fruits</a></li>
+							<li><a class="dropdown-item" href="f-food.html">Fast Food</a></li>
+							<li><a class="dropdown-item" href="c-drinks.html">Cool Drinks</a></li>
+							<li><a class="dropdown-item" href="fish.html">Fish</a></li>
+						</ul>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contact.html">Contact</a>
+					</li>
+				</ul>
+
+				<form class="d-flex" role="search">
+					<input class="form-control rounded-0 rounded-start-pill" type="search" placeholder="Search here..." aria-label="Search">
+					<button class="btn btn-warning rounded-0 rounded-end-pill" type="submit"><i class="bi bi-search"></i></button>
+				</form>
+
+				<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<button type="button" class="nav-link position-relative mx-3" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+							<i class="bi bi-bag"></i>
+							<span class="position-absolute top-10 start-100 translate-middle badge rounded-pill bg-danger">
+								3
+								<span class="visually-hidden">unread messages</span>
+							</span>
+						</button>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link rounded-pill" href="signIn.html" id="btn-signin"><i class="bi bi-box-arrow-in-right"></i> SignIn</a>
+					</li>
+				</ul>
+
+			</div>
+		</div>
+	</nav>
+	<!-- Navbar End -->
+
+
+
+	<div class="container-fluid">
+		<div class="row">
+			<!-- Sidebar Start -->
+			<div class="col-lg-3 col-md-4 col-sm-12">
+				<div class="sidebar mt-5">
+					<form class="d-flex" role="search">
+						<input class="form-control rounded-0 rounded-start-pill" type="search" placeholder="Search here..." aria-label="Search">
+						<button class="btn btn-warning rounded-0 rounded-end-pill" type="submit"><i class="bi bi-search"></i></button>
+					</form>
+
+					<div class="mt-5 d-flex justify-content-between align-items-center">
+						<h5>Filter</h5>
+						<button type="reset" class="btn btn-warning">Reset</button>
+					</div>
+
+					<div class="mt-4">
+						<h6>Fast Food</h6>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="" >
+							<label class="form-check-label">
+								30Tk-50Tk
+							</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="" >
+							<label class="form-check-label">
+								50Tk - 70Tk 
+							</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="" >
+							<label class="form-check-label">
+								70Tk - 100Tk
+							</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="" >
+							<label class="form-check-label">
+								100Tk - 200Tk
+							</label>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Sidebar End -->
+
+			
+			<div class="col-lg-9 col-md-8 col-sm-12">
+				<!-- Breadcrumb Start -->
+				<div class="breadcrumb-area mt-5">
+					<div class="overlay"></div>
+					<div class="position-absolute d-flex justify-content-center align-items-center w-100 h-100">
+						<div>
+							<h3 class="fw-bold text-white text-center">Fast Food</h3>
+							<nav aria-label="breadcrumb">
+								<ol class="breadcrumb">
+									<li class="breadcrumb-item"><a href="index.html">Home</a></li>
+									<i class="bi bi-chevron-right"></i>
+									<li class="breadcrumb-item active" aria-current="page">Fast Food</li>
+								</ol>
+							</nav>
+						</div>
+					</div>
+				</div>
+				<!-- Breadcrumb End -->
+
+
+
+				<!-- Main Content Start -->
+				<div class="main-content">
+					<div class="row g-2 mt-5">
+						
+						<!-- Single -->
+						<div class="col-lg-3 col-md-4 col-sm-12">
+							<div class="card text-center">
+								<div class="text-start position-absolute mx-1">
+									<span class="badge text-bg-danger rounded-0">-10%</span>
+								</div>
+								<img src="assets/images/Fast food/french-fries.png" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">
+										<a href="#">French Fries</a>
+									</h5>
+									<div class="card-text">
+										<p>60Tk <del>80Tk</del></p>
+										<div class="rating mb-2">
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-half"></i></span>
+										</div>
+									</div>
+									<a href="#" class="btn btn-warning"><i class="bi bi-cart2"></i> Add to Cart</a>
+								</div>
+							</div>
+						</div>
+						<!-- Single -->
+						<div class="col-lg-3 col-md-4 col-sm-12">
+							<div class="card text-center">
+								<img src="assets/images/Fast food/hamburger.png" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">
+										<a href="#">Humburger</a>
+									</h5>
+									<div class="card-text">
+										<p>100Tk</p>
+										<div class="rating mb-2">
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-half"></i></span>
+										</div>
+									</div>
+									<a href="#" class="btn btn-warning"><i class="bi bi-cart2"></i> Add to Cart</a>
+								</div>
+							</div>
+						</div>
+						<!-- Single -->
+						<div class="col-lg-3 col-md-4 col-sm-12">
+							<div class="card text-center">
+								<img src="assets/images/Fast food/noodles.png" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">
+										<a href="#">Chinese Noodles</a>
+									</h5>
+									<div class="card-text">
+										<p>120Tk</p>
+										<div class="rating mb-2">
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-half"></i></span>
+										</div>
+									</div>
+									<a href="#" class="btn btn-warning"><i class="bi bi-cart2"></i> Add to Cart</a>
+								</div>
+							</div>
+						</div>
+						<!-- Single -->
+						<div class="col-lg-3 col-md-4 col-sm-12">
+							<div class="card text-center">
+								<div class="text-start position-absolute mx-1">
+									<span class="badge text-bg-danger rounded-0">-18%</span>
+								</div>
+								<img src="assets/images/Fast food/italian-pizza.png" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">
+										<a href="#">Italian Pizza</a>
+									</h5>
+									<div class="card-text">
+										<p>200Tk (kg) <del>240Tk</del></p>
+										<div class="rating mb-2">
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-half"></i></span>
+										</div>
+									</div>
+									<a href="#" class="btn btn-warning"><i class="bi bi-cart2"></i> Add to Cart</a>
+								</div>
+							</div>
+						</div>
+						<!-- Single -->
+						<div class="col-lg-3 col-md-4 col-sm-12">
+							<div class="card text-center">
+								<div class="text-start position-absolute mx-1">
+									<span class="badge text-bg-danger rounded-0">-13%</span>
+								</div>
+								<img src="assets/images/Fast food/cheese-s.png" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">
+										<a href="#"> Cheese Sandwich</a>
+									</h5>
+									<div class="card-text">
+										<p>120<del>150</del></p>
+										<div class="rating mb-2">
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-half"></i></span>
+										</div>
+									</div>
+									<a href="#" class="btn btn-warning"><i class="bi bi-cart2"></i> Add to Cart</a>
+								</div>
+							</div>
+						</div>
+						<!-- Single -->
+						<div class="col-lg-3 col-md-4 col-sm-12">
+							<div class="card text-center">
+								<img src="assets/images/Fast food/sandwich.png" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">
+										<a href="#">Chicken Sandwich</a>
+									</h5>
+									<div class="card-text">
+										<p>100tk</p>
+										<div class="rating mb-2">
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-half"></i></span>
+										</div>
+									</div>
+									<a href="#" class="btn btn-warning"><i class="bi bi-cart2"></i> Add to Cart</a>
+								</div>
+							</div>
+						</div>
+						<!-- Single -->
+						<div class="col-lg-3 col-md-4 col-sm-12">
+							<div class="card text-center">
+								<img src="assets/images/Fast food/french-fries.png" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">
+										<a href="#">French Fries</a>
+									</h5>
+									<div class="card-text">
+										<p>80Tk</p>
+										<div class="rating mb-2">
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-half"></i></span>
+										</div>
+									</div>
+									<a href="#" class="btn btn-warning"><i class="bi bi-cart2"></i> Add to Cart</a>
+								</div>
+							</div>
+						</div>
+						<!-- Single -->
+						<div class="col-lg-3 col-md-4 col-sm-12">
+							<div class="card text-center">
+								<div class="text-start position-absolute mx-1">
+									<span class="badge text-bg-danger rounded-0"></span>
+								</div>
+								<img src="assets/images/Fast food/hamburger.png" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">
+										<a href="#">Hamburger</a>
+									</h5>
+									<div class="card-text">
+										<p>100Tk</p>
+										<div class="rating mb-2">
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-fill"></i></span>
+											<span><i class="bi bi-star-half"></i></span>
+										</div>
+									</div>
+									<a href="#" class="btn btn-warning"><i class="bi bi-cart2"></i> Add to Cart</a>
+								</div>
+							</div>
+						</div>
+						<!-- Product End -->
+
+
+
+						<!-- Pagination Start -->
+						<div class="col-lg-12 col-md-12 col-sm-12">
+							<div class="pagination-area d-flex justify-content-center mt-4 mb-4">
+								<nav aria-label="Page navigation example">
+									<ul class="pagination">
+										<li class="page-item">
+											<a class="page-link" href="#">Previous</a>
+										</li>
+										<li class="page-item">
+											<a class="page-link active" href="#">1</a>
+										</li>
+										<li class="page-item">
+											<a class="page-link" href="#">2</a>
+										</li>
+										<li class="page-item">
+											<a class="page-link" href="#">3</a>
+										</li>
+										<li class="page-item">
+											<a class="page-link" href="#">Next</a>
+										</li>
+									</ul>
+								</nav>
+							</div>
+						</div>
+						<!-- Pagination End -->
+					</div>
+				</div>
+			</div>
+			<!-- Main Content End -->
+		</div>
+	</div>
+
+
+	<!-- Shopping Cart Offcanvas Start -->
+
+	<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+		<div class="offcanvas-header">
+			<h5 class="offcanvas-title" id="offcanvasRightLabel">Shopping Cart</h5>
+			<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+		</div>
+		<hr>
+		<div class="offcanvas-body">
+
+			<div class="d-flex gap-3 mb-3">
+				<div class="product-photo">
+					<img src="assets/images/fruits/orange.png" alt="">
+				</div>
+				<div class="d-flex justify-content-between flex-fill">
+					<div>
+						<a href="#" class="d-block">Fresh Orange</a>
+						<span class="d-block">200 Tk (Kg)</span>
+					</div>
+					<div>
+						<button type="button"><i class="bi bi-x-circle-fill"></i></button>
+					</div>
+				</div>
+			</div>
+			<div class="d-flex gap-3 mb-3">
+				<div class="product-photo">
+					<img src="assets/images/fruits/strawberry.png" alt="">
+				</div>
+				<div class="d-flex justify-content-between flex-fill">
+					<div>
+						<a href="#" class="d-block">Fresh Strawberry</a>
+						<span class="d-block">200 Tk (Kg)</span>
+					</div>
+					<div>
+						<button type="button"><i class="bi bi-x-circle-fill"></i></button>
+					</div>
+				</div>
+			</div>
+
+			<div class="d-flex gap-3 mb-3">
+				<div class="product-photo">
+					<img src="assets/images/fruits/mango.png" alt="">
+				</div>
+				<div class="d-flex justify-content-between flex-fill">
+					<div>
+						<a href="#" class="d-block">Fresh Mango</a>
+						<span class="d-block">200 Tk (Kg)</span>
+					</div>
+					<div>
+						<button type="button"><i class="bi bi-x-circle-fill"></i></button>
+					</div>
+				</div>
+			</div>
+
+			<div class="subTotal d-flex justify-content-between mt-4">
+				<h5>Subtotal:</h5>
+				<h5>600 Tk</h5>
+			</div>
+
+
+			<div class="btn-area w-100 text-end mt-4">
+				<a href="cart.html" class="btn btn-primary rounded-0 mx-2">View Cart</a>
+				<a href="#" class="btn btn-warning rounded-0">Checkout</a>
+			</div>
+
+		</div>
+	</div>
+	<!-- Shopping Cart Offcanvas End -->
+
+
+
+	<!-- Footer Start -->
+	<footer>
+		<div class="row g-4">
+			<div class="col-lg-3 col-md-4 col-sm-12">
+				<div class="f-title">
+					<h5>Address</h5>
+				</div>
+				<ul type="none">
+					<li>
+						<span><i class="bi bi-geo-alt"></i></span>
+						<span>Damurhuda, Chuadanga, Bangladesh.</span>
+					</li>
+					<li>
+						<span><i class="bi bi-envelope"></i></span>
+						<span>tsumaya.barsha@gmail.com</span>
+					</li>
+					<li>
+						<span><i class="bi bi-telephone"></i></span>
+						<span>+880 12345</span>
+					</li>
+				</ul>
+				<div class="social-link d-flex gap-2 mt-4">
+					<div class="icon" id="facebook">
+						<a href="#"><i class="bi bi-facebook"></i></a>
+					</div>
+					<div class="icon" id="youtube">
+						<a href="#"><i class="bi bi-youtube"></i></a>
+					</div>
+					<div class="icon" id="instagram">
+						<a href="#"><i class="bi bi-instagram"></i></a>
+					</div>
+					<div class="icon" id="pinterest">
+						<a href="#"><i class="bi bi-pinterest"></i></a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-lg-3 col-md-4 col-sm-12">
+				<div class="f-title">
+					<h5>Categories</h5>
+				</div>
+				<ul type="none">
+					<li>
+						<a href="#">Vegetables</a>
+					</li>
+					<li>
+						<a href="#">Fruits</a>
+					</li>
+					<li>
+						<a href="#">Cool Drinks</a>
+					</li>
+					<li>
+						<a href="#">Fast Food</a>
+					</li>
+					<li>
+						<a href="#">Fish</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="col-lg-3 col-md-4 col-sm-12">
+				<div class="f-title">
+					<h5>Information</h5>
+				</div>
+				<ul type="none">
+					<li>
+						<a href="#">About us</a>
+					</li>
+					<li>
+						<a href="#">Contact us</a>
+					</li>
+					<li>
+						<a href="#">Terms & Conditions</a>
+					</li>
+					<li>
+						<a href="#">Privacy Policy</a>
+					</li>
+					<li>
+						<a href="#">SignIn</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="col-lg-3 col-md-4 col-sm-12">
+				<div class="f-title">
+					<h5>Payment Way</h5>
+				</div>
+				<span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae veniam eligendi corporis similique nulla excepturi cum libero facilis officiis, facere!</span>
+				<div class="row g-4 mt-4">
+					<div class="col-lg-3 col-md-3 col-sm-3">
+						<div class="logo">
+							<img src="assets/images/payment-way/visa.png" alt="">
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-3">
+						<div class="logo">
+							<img src="assets/images/payment-way/mastercard.png" alt="">
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-3">
+						<div class="logo">
+							<img src="assets/images/payment-way/bKash.png" alt="">
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-3">
+						<div class="logo">
+							<img src="assets/images/payment-way/nagad.png" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="copyright text-center mt-4">
+				<span>&copy; 2024 MyEcommerce | All rights reserved.</span>
+			</div>
+
+
+		</div>
+	</footer>
+	<!-- Footer End -->
+	
+
+
+
+
+	<!-- Bootstrap JS -->
+	<script src="assets/js/bootstrap.bundle.js"></script>
+	<!-- jQuery -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<!-- Slick JS -->
+	<script src="assets/slick/slick.min.js"></script>
+	<!-- Custom JS -->
+	<script src="assets/js/main.js"></script>
+</body>
+</html>

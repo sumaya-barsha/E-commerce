@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contact</title>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/icons/font/bootstrap-icons.min.css">
+	<!-- Slick CSS -->
+	<link rel="stylesheet" href="assets/slick/slick.css">
+	<link rel="stylesheet" href="assets/slick/slick-theme.css">
+	<!-- Responsive CSS -->
+	<link rel="stylesheet" href="assets/css/responsive.css">
+	<!-- My Style -->
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+	<!-- Navbar Start -->
+	<nav class="navbar navbar-expand-lg bg-body-tertiary shadow-sm">
+		<div class="container-fluid">
+			<a class="navbar-brand text-uppercase fw-bold" href="index.html">MyShop</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">About</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+							Categories
+						</a>
+						<ul class="dropdown-menu">
+							<li><a class="dropdown-item" href="vegetables.html">Vegetables</a></li>
+							<li><a class="dropdown-item" href="fruits.html">Fruits</a></li>
+							<li><a class="dropdown-item" href="f-food.html">Fast Food</a></li>
+							<li><a class="dropdown-item" href="c-drinks.html">Cool Drinks</a></li>
+							<li><a class="dropdown-item" href="fish.html">Fish</a></li>
+						</ul>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contact.html">Contact</a>
+					</li>
+				</ul>
+
+				<form class="d-flex" role="search">
+					<input class="form-control rounded-0 rounded-start-pill" type="search" placeholder="Search here..." aria-label="Search">
+					<button class="btn btn-warning rounded-0 rounded-end-pill" type="submit"><i class="bi bi-search"></i></button>
+				</form>
+
+				<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<button type="button" class="nav-link position-relative mx-3" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+							<i class="bi bi-bag"></i>
+							<span class="position-absolute top-10 start-100 translate-middle badge rounded-pill bg-danger">
+								3
+								<span class="visually-hidden">unread messages</span>
+							</span>
+						</button>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link rounded-pill" href="signIn.html" id="btn-signin"><i class="bi bi-box-arrow-in-right"></i> SignIn</a>
+					</li>
+				</ul>
+
+			</div>
+		</div>
+	</nav>
+	<!-- Navbar End -->
+
+
+	<!-- Breadcrumb Start -->
+	<div class="breadcrumb-area">
+		<div class="overlay"></div>
+		<div class="position-absolute d-flex justify-content-center align-items-center w-100 h-100">
+			<div>
+				<h3 class="fw-bold text-white text-center">Contact</h3>
+				<nav aria-label="breadcrumb">
+					<ol class="breadcrumb">
+						<li class="breadcrumb-item"><a href="index.html">Home</a></li>
+
+						<i class="bi bi-chevron-right"></i>
+
+						<li class="breadcrumb-item active" aria-current="page">Contact</li>
+					</ol>
+				</nav>
+			</div>
+		</div>
+	</div>
+	<!-- Breadcrumb End -->
+
+
+	<div class="container pt-5 pb-5">
+		<div class="contact-form">
+			<form action="">
+				<div class="row">
+					<div class="col-lg-6 col-md-6 col-sm-12">
+						<div class="mb-3">
+							<input type="text" class="form-control"  placeholder="Enter First Name">
+						</div>
+					</div>
+
+					<div class="col-lg-6 col-md-6 col-sm-12">
+						<div class="mb-3">
+							<input type="text" class="form-control"  placeholder="Enter Last Name">
+						</div>
+					</div>
+
+					<div class="col-lg-6 col-md-6 col-sm-12">
+						<div class="mb-3">
+							<input type="email" class="form-control"  placeholder="Enter Email">
+						</div>
+					</div>
+
+					<div class="col-lg-6 col-md-6 col-sm-12">
+						<div class="mb-3">
+							<input type="text" class="form-control"  placeholder="Enter phone">
+						</div>
+					</div>
+
+					<div class="col-lg-12 col-md-12 col-sm-12">
+						<div class="mb-3">
+							<input type="text" class="form-control"  placeholder="Enter Address">
+						</div>
+					</div>
+
+					<div class="col-lg-12 col-md-12 col-sm-12">
+						<div class="mb-3">
+							<textarea class="form-control" rows="4" placeholder="Details"></textarea>
+						</div>
+					</div>
+
+					<div class="col-lg-12 col-md-12 col-sm-12">
+						<input type="submit" value="Send a Message" class="btn btn-warning">
+					</div>
+
+				</div>
+			</form>
+		</div>
+	</div>
+
+	<div class="g-map">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d234010.2581499291!2d88.5651480644202!3d23.589614317157125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f9325e7e3a13f5%3A0x7575e2f94a9d8f58!2sDamurhuda%20Upazila!5e0!3m2!1sen!2sbd!4v1705402419384!5m2!1sen!2sbd"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	</div>
+
+
+	<!-- Shopping Cart Offcanvas Start -->
+
+	<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+		<div class="offcanvas-header">
+			<h5 class="offcanvas-title" id="offcanvasRightLabel">Shopping Cart</h5>
+			<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+		</div>
+		<hr>
+		<div class="offcanvas-body">
+
+			<div class="d-flex gap-3 mb-3">
+				<div class="product-photo">
+					<img src="assets/images/fruits/orange.png" alt="">
+				</div>
+				<div class="d-flex justify-content-between flex-fill">
+					<div>
+						<a href="#" class="d-block">Fresh Orange</a>
+						<span class="d-block">200 Tk (Kg)</span>
+					</div>
+					<div>
+						<button type="button"><i class="bi bi-x-circle-fill"></i></button>
+					</div>
+				</div>
+			</div>
+			<div class="d-flex gap-3 mb-3">
+				<div class="product-photo">
+					<img src="assets/images/fruits/strawberry.png" alt="">
+				</div>
+				<div class="d-flex justify-content-between flex-fill">
+					<div>
+						<a href="#" class="d-block">Fresh Strawberry</a>
+						<span class="d-block">200 Tk (Kg)</span>
+					</div>
+					<div>
+						<button type="button"><i class="bi bi-x-circle-fill"></i></button>
+					</div>
+				</div>
+			</div>
+
+			<div class="d-flex gap-3 mb-3">
+				<div class="product-photo">
+					<img src="assets/images/fruits/mango.png" alt="">
+				</div>
+				<div class="d-flex justify-content-between flex-fill">
+					<div>
+						<a href="#" class="d-block">Fresh Mango</a>
+						<span class="d-block">200 Tk (Kg)</span>
+					</div>
+					<div>
+						<button type="button"><i class="bi bi-x-circle-fill"></i></button>
+					</div>
+				</div>
+			</div>
+
+			<div class="subTotal d-flex justify-content-between mt-4">
+				<h5>Subtotal:</h5>
+				<h5>600 Tk</h5>
+			</div>
+
+
+			<div class="btn-area w-100 text-end mt-4">
+				<a href="cart.html" class="btn btn-primary rounded-0 mx-2">View Cart</a>
+				<a href="checkout.html" class="btn btn-warning rounded-0">Checkout</a>
+			</div>
+
+		</div>
+	</div>
+	<!-- Shopping Cart Offcanvas End -->
+
+
+
+	<!-- Footer Start -->
+	<footer>
+		<div class="row g-4">
+			<div class="col-lg-3 col-md-4 col-sm-12">
+				<div class="f-title">
+					<h5>Address</h5>
+				</div>
+				<ul type="none">
+					<li>
+						<span><i class="bi bi-geo-alt"></i></span>
+						<span>Damurhuda, Chuadanga, Bangladesh.</span>
+					</li>
+					<li>
+						<span><i class="bi bi-envelope"></i></span>
+						<span>tsumaya.barsha@gmail.com</span>
+					</li>
+					<li>
+						<span><i class="bi bi-telephone"></i></span>
+						<span>+880 12345</span>
+					</li>
+				</ul>
+				<div class="social-link d-flex gap-2 mt-4">
+					<div class="icon" id="facebook">
+						<a href="#"><i class="bi bi-facebook"></i></a>
+					</div>
+					<div class="icon" id="youtube">
+						<a href="#"><i class="bi bi-youtube"></i></a>
+					</div>
+					<div class="icon" id="instagram">
+						<a href="#"><i class="bi bi-instagram"></i></a>
+					</div>
+					<div class="icon" id="pinterest">
+						<a href="#"><i class="bi bi-pinterest"></i></a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-lg-3 col-md-4 col-sm-12">
+				<div class="f-title">
+					<h5>Categories</h5>
+				</div>
+				<ul type="none">
+					<li>
+						<a href="#">Vegetables</a>
+					</li>
+					<li>
+						<a href="#">Fruits</a>
+					</li>
+					<li>
+						<a href="#">Cool Drinks</a>
+					</li>
+					<li>
+						<a href="#">Fast Food</a>
+					</li>
+					<li>
+						<a href="#">Fish</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="col-lg-3 col-md-4 col-sm-12">
+				<div class="f-title">
+					<h5>Information</h5>
+				</div>
+				<ul type="none">
+					<li>
+						<a href="#">About us</a>
+					</li>
+					<li>
+						<a href="#">Contact us</a>
+					</li>
+					<li>
+						<a href="#">Terms & Conditions</a>
+					</li>
+					<li>
+						<a href="#">Privacy Policy</a>
+					</li>
+					<li>
+						<a href="#">SignIn</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="col-lg-3 col-md-4 col-sm-12">
+				<div class="f-title">
+					<h5>Payment Way</h5>
+				</div>
+				<span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae veniam eligendi corporis similique nulla excepturi cum libero facilis officiis, facere!</span>
+				<div class="row g-4 mt-4">
+					<div class="col-lg-3 col-md-3 col-sm-3">
+						<div class="logo">
+							<img src="assets/images/payment-way/visa.png" alt="">
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-3">
+						<div class="logo">
+							<img src="assets/images/payment-way/mastercard.png" alt="">
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-3">
+						<div class="logo">
+							<img src="assets/images/payment-way/bKash.png" alt="">
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-3">
+						<div class="logo">
+							<img src="assets/images/payment-way/nagad.png" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="copyright text-center mt-4">
+				<span>&copy; 2024 MyEcommerce | All rights reserved.</span>
+			</div>
+
+
+		</div>
+	</footer>
+	<!-- Footer End -->
+	
+
+
+
+
+	<!-- Bootstrap JS -->
+	<script src="assets/js/bootstrap.bundle.js"></script>
+	<!-- jQuery -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<!-- Slick JS -->
+	<script src="assets/slick/slick.min.js"></script>
+	<!-- Custom JS -->
+	<script src="assets/js/main.js"></script>
+</body>
+</html>
